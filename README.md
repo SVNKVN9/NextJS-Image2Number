@@ -26,3 +26,7 @@ python traning/main.py
 ```bash
 npm run dev
 ```
+
+### Demo
+
+- [Click Here](https://next-js-image2-number.vercel.app/)
