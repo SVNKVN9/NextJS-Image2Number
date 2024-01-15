@@ -14,7 +14,7 @@ class Model {
     async start() {
         await tf.setBackend('cpu');
 
-        this.model = await tf.loadLayersModel('http://localhost:3000/model.json')
+        this.model = await tf.loadLayersModel('https://raw.githubusercontent.com/SVNKVN9/NextJS-Image2Number/main/public/model.json')
 
         this.Loaded = true
     }
