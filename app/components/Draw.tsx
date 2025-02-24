@@ -61,7 +61,7 @@ const Draw: React.FC<DrawingCanvasProps> = ({ canvasWidth, canvasHeight, onImage
     return (
         <div>
             <canvas
-                className='bg-white bg-opacity-50 border-2 rounded-lg'
+                className='bg-white border-2 rounded-lg'
                 ref={canvasRef}
                 width={canvasWidth}
                 height={canvasHeight}
