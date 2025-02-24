@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import Model from "../utils/Modal";
+import Model from "../../utils/Modal";
 
 export const GET = async (req: NextRequest, res: NextResponse) => {
     const model = Model.getInstance()
